@@ -1,6 +1,6 @@
 app.factory('socket', function($rootScope) {
     console.log('socket  starting . . .')
-    var socket = io.connect('http://localhost:8080/take-test');
+    var socket = io.connect('http://localhost:3000/takeTest');
 
     return {
         on: function(eventName, callback) {
