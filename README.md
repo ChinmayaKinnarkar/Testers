@@ -28,6 +28,12 @@ This is a live test taking web app.
 2. Open the server folder of the project in cmd
 3. Type `npm install` to install all the dependencies
 4. Type node app.js . The project starts running on localhost:3000
+5. To register Admin, go to signup page and enter the details below
+    name: 'Admin'
+    email:'admin@admin.com'
+    password:'12345678',
+    securityQuestion:'12345678'
+    answer:'12345678'
 
 # Technologies used:
 # Frontend
