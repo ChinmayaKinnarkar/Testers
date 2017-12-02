@@ -63,7 +63,7 @@ module.exports = function (app, passport) {
     passport.use(new GoogleStrategy({
             clientID: GOOGLE_CLIENT_ID,
             clientSecret: GOOGLE_CLIENT_SECRET,
-            callbackURL: "http://ec2-54-179-155-238.ap-southeast-1.compute.amazonaws.com:3000/auth/google/callback",
+            callbackURL: "https://rocky-hollows-68289.herokuapp.com/auth/google/callback",
             passReqToCallback: true
         },
         function (request, accessToken, refreshToken, profile, done) {
